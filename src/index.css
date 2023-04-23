@@ -1,0 +1,212 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+:root {
+  /* breakpoint properties */
+  --main-w: 100%;
+  --header-h: 50px;
+  --h2-margin: 2rem;
+  --btn-bg: hsl(76, 57%, 54%);
+  --btn-bg-hover: hsl(76, 57%, 48%);
+  --btn-clr: #000;
+  --card-direction: column;
+  --card-rad: 20px;
+
+  /* theme */
+  --body-bg: hsl(0, 0%, 20%);
+  --body-clr: #fff;
+  --header-bg: hsl(0, 0%, 30%);
+  --h2-clr: hsl(76, 57%, 54%);
+  --card-bg: hsl(0, 0%, 10%);
+  --card-txt: #eee;
+  --card-title-bg: hsla(0, 0%, 30%, 70%);
+  --card-title-txt: #fff;
+  --card-links-bg: hsla(0, 0%, 30%, 50%);
+  --card-hover-scale: 1.05;
+  --link: #ddd;
+  --link-hover: #000;
+
+  --img-shadow-hover: hsla(10, 0%, 0%, 0.7);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-bg: #eee;
+    --body-clr: #000;
+    --link: #111;
+    --link-hover: #000;
+    --header-bg: #ccc;
+    --header-clr: #000;
+    --card-bg: hsl(0, 0%, 84%);
+    --card-bdr: hsl(0, 0%, 50%);
+    --card-txt: hsl(0, 0%, 20%);
+    --h2-clr: #000;
+    --img-shadow-hover: hsla(0, 0%, 0%, 0.3);
+  }
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  background: var(--body-bg, #eee);
+  color: var(--body-clr);
+  margin: 1.2em 0;
+  padding: 1em 2em;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  text-align: left;
+  line-height: 1.4em;
+}
+a {
+  color: var(--link);
+}
+a:hover {
+  color: var(--link-hover);
+}
+.btn {
+  background-color: var(--btn-bg);
+  border: none;
+  text-decoration: none;
+  color: var(--btn-clr);
+  padding: 0.3em 1.5em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:focus,
+.btn:active,
+.btn:hover {
+  background-color: var(--btn-bg-hover);
+}
+
+main > * {
+  margin-bottom: 1.5em;
+}
+
+main {
+  width: var(--main-w);
+  max-width: var(--main-w);
+}
+
+.header {
+  background-color: var(--header-bg);
+  height: var(--header-h);
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.header__title {
+  font-size: clamp(1.1em, 2.5vw, 1.6em);
+  color: var(--header-clr);
+  padding: 0 3rem 0;
+}
+
+.header__logo img {
+  width: var(--header-h);
+  height: var(--header-h);
+}
+h2 {
+  color: var(--h2-clr);
+  margin-top: var(--h2-margin);
+}
+
+/* cards */
+.cards-container {
+  display: flex;
+  flex-direction: var(--card-direction);
+  gap: 1rem;
+  align-items: stretch;
+}
+.card {
+  border-radius: var(--card-rad);
+  flex-basis: 60px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 360px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: all 500ms ease;
+}
+.card__img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: scale 250ms ease;
+}
+.card__title {
+  margin: 0;
+  background-color: var(--card-title-bg);
+  color: var(--card-title-txt);
+  padding: 0.5em 1em;
+  font-size: 1em;
+  transform: translateY(300px);
+}
+.card__links {
+  /* 	margin-top:auto; */
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  transform: translateY(300px);
+  background-color: var(--card-title-bg);
+  padding: 0.5rem 1rem;
+}
+.card__title,
+.card__links {
+  transition: transform 150ms ease-in;
+}
+
+.card:active,
+.card:hover {
+  flex-basis: 300px;
+  scale: var(--card-hover-scale);
+  z-index: 9;
+  box-shadow: 0 10px 20px 10px var(--img-shadow-hover);
+}
+.card:active .card__title,
+.card:hover .card__title {
+  transform: translateY(0);
+  transition: transform 300ms ease-in-out 300ms;
+}
+.card:active .card__links,
+.card:hover .card__links {
+  transform: translateY(0);
+  transition: transform 300ms ease-out 300ms;
+}
+.card:active .card__img img,
+.card:active .card__img img,
+.card:active .card__img img,
+.card:hover .card__img img {
+  /* 	scale: 1; */
+}
+
+@media all and (min-width: 800px) {
+  :root {
+    --h2-margin: 4rem;
+    --card-direction: row;
+    --header-h: 80px;
+    --main-w: 64rem;
+    --card-hover-scale: 1.1;
+  }
+  .card {
+    flex: 1;
+  }
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "title": "JavaScript",
+    "projects": [
+      {
+        "title": "Countdown",
+        "img": "./images/js/countdown.webp",
+        "imgAlt": "./images/js/countdown.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/countdown/",
+        "urlGithub": "https://github.com/cbolson/projects/tree/master/countdown"
+      },
+      {
+        "title": "Slideshow",
+        "img": "./images/js/slideshow.webp",
+        "imgAlt": "./images/js/slideshow.png",
+        "urlDemo": "http://sandbox.cbolson.com/projects/slideshow/",
+        "urlGithub": "https://github.com/cbolson/projects/tree/master/slideshow"
+      },
+      {
+        "title": "CSS & JavaScript Clock",
+        "img": "./images/js/clock.webp",
+        "imgAlt": "./images/js/clock.png",
+        "urlDemo": "http://sandbox.cbolson.com/projects/clock/",
+        "urlGithub": "https://github.com/cbolson/projects/tree/master/clock"
+      },
+      {
+        "title": "Animated Cards",
+        "img": "./images/js/animated-cards.webp",
+        "imgAlt": "./images/js/animated-cards.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/animated-cards/",
+        "urlGithub": "https://github.com/cbolson/projects/tree/master/animated-cards"
+      },
+      {
+        "title": "API Quiz",
+        "img": "./images/js/quiz.webp",
+        "imgAlt": "./images/js/quiz.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/quiz/",
+        "urlGithub": "https://github.com/cbolson/projects/tree/master/quiz"
+      }
+    ]
+  },
+  {
+    "title": "React",
+    "projects": [
+      {
+        "title": "FAQ / Accordion",
+        "img": "./images/react/faq.webp",
+        "imgAlt": "./images/react/faq.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/react/faq/",
+        "urlGithub": "https://github.com/cbolson/sandbox-react/tree/main/faq"
+      },
+      {
+        "title": "Random Quotes",
+        "img": "./images/react/quotes.webp",
+        "imgAlt": "./images/react/quotes.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/react/random-quote/",
+        "urlGithub": "https://github.com/cbolson/sandbox-react/tree/main/random-quote"
+      },
+      {
+        "title": "Breaking Bad",
+        "img": "./images/react/breaking-bad.webp",
+        "imgAlt": "./images/react/breaking-bad.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/react/breaking-bad/",
+        "urlGithub": "https://github.com/cbolson/sandbox-react/tree/main/Breaking-bad"
+      },
+      {
+        "title": "Autocomplete - Country search",
+        "img": "./images/react/autocomplete.webp",
+        "imgAlt": "./images/react/autocomplete.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/react/autocomplete/",
+        "urlGithub": "https://github.com/cbolson/sandbox-react/tree/main/autocomplete"
+      },
+      {
+        "title": "Clock with with theme picker",
+        "img": "./images/react/clock.webp",
+        "imgAlt": "./images/react/clock.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/react/clock/",
+        "urlGithub": "https://github.com/cbolson/sandbox-react/tree/main/clock"
+      }
+    ]
+  },
+
+  {
+    "title": "CSS",
+    "projects": [
+      {
+        "title": "Circular navigation",
+        "img": "/images/css/circle-nav.webp",
+        "imgAlt": "/images/css/circle-nav.png",
+        "urlDemo": "https://sandbox.cbolson.com/projects/css/circle-nav/",
+        "urlGithub": "https://github.com/cbolson/projects/tree/master/cards-circles"
+      }
+    ]
+  }
+]
