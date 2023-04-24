@@ -1,4 +1,11 @@
-function Cards({ title, img, imgAlt, urlDemo, urlGithub }) {
+interface Props {
+  title: string;
+  img: string;
+  imgAlt: string;
+  urlDemo: string;
+  urlGithub: string;
+}
+function Cards({ title, img, imgAlt, urlDemo, urlGithub }: Props) {
   return (
     <div className='card'>
       <div className='card__img'>
@@ -9,7 +16,6 @@ function Cards({ title, img, imgAlt, urlDemo, urlGithub }) {
         </picture>
       </div>
       <h3 className='card__title'>{title}</h3>
-      <div className='card__links'>{urlDemo}</div>
       <div className='card__links'>
         <a href={urlDemo} className='btn' target='_blank'>
           Demo
