@@ -7,35 +7,35 @@
         "img": "./images/js/countdown.webp",
         "imgAlt": "./images/js/countdown.png",
         "urlDemo": "https://sandbox.cbolson.com/projects/countdown/",
-        "urlGithub": "https://github.com/cbolson/projects/tree/master/countdown"
+        "urlGithub": "https://github.com/cbolson/sandbox-JavaScript/tree/main/countdown"
       },
       {
         "title": "Slideshow",
         "img": "./images/js/slideshow.webp",
         "imgAlt": "./images/js/slideshow.png",
         "urlDemo": "http://sandbox.cbolson.com/projects/slideshow/",
-        "urlGithub": "https://github.com/cbolson/projects/tree/master/slideshow"
+        "urlGithub": "https://github.com/cbolson/sandbox-JavaScript/tree/main/slideshow"
       },
       {
         "title": "CSS & JavaScript Clock",
         "img": "./images/js/clock.webp",
         "imgAlt": "./images/js/clock.png",
         "urlDemo": "http://sandbox.cbolson.com/projects/clock/",
-        "urlGithub": "https://github.com/cbolson/projects/tree/master/clock"
+        "urlGithub": "https://github.com/cbolson/sandbox-JavaScript/tree/main/clock"
       },
       {
         "title": "Animated Cards",
         "img": "./images/js/animated-cards.webp",
         "imgAlt": "./images/js/animated-cards.png",
         "urlDemo": "https://sandbox.cbolson.com/projects/animated-cards/",
-        "urlGithub": "https://github.com/cbolson/projects/tree/master/animated-cards"
+        "urlGithub": "https://github.com/cbolson/sandbox-JavaScript/tree/main/animated-cards"
       },
       {
         "title": "API Quiz",
         "img": "./images/js/quiz.webp",
         "imgAlt": "./images/js/quiz.png",
         "urlDemo": "https://sandbox.cbolson.com/projects/quiz/",
-        "urlGithub": "https://github.com/cbolson/projects/tree/master/quiz"
+        "urlGithub": "https://github.com/cbolson/sandbox-JavaScript/tree/main/quiz"
       }
     ]
   },
@@ -88,7 +88,14 @@
         "img": "/images/css/circle-nav.webp",
         "imgAlt": "/images/css/circle-nav.png",
         "urlDemo": "https://sandbox.cbolson.com/projects/css/circle-nav/",
-        "urlGithub": "https://github.com/cbolson/projects/tree/master/cards-circles"
+        "urlGithub": "https://github.com/cbolson/sandbox-css/tree/main/cards-circles"
+      },
+      {
+        "title": "Vertically expanding cards",
+        "img": "/images/css/vertical-expand-cards.webp",
+        "imgAlt": "/images/css/vertical-expand-cards.png",
+        "urlDemo": "https://codepen.io/cbolson/pen/KKGoZJb",
+        "urlGithub": "https://github.com/cbolson/sandbox-css/tree/main/cards-circles"
       }
     ]
   }

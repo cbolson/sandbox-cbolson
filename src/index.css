@@ -209,4 +209,9 @@ h2 {
   .card {
     flex: 1;
   }
+
+  .card:active,
+  .card:hover {
+    flex-basis: 600px;
+  }
 }
