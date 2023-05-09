@@ -88,15 +88,15 @@
         "img": "/images/css/circle-nav.webp",
         "imgAlt": "/images/css/circle-nav.png",
         "urlDemo": "https://sandbox.cbolson.com/projects/css/circle-nav/",
-        "urlGithub": "https://github.com/cbolson/sandbox-css/tree/main/cards-circles"
-      },
-      {
-        "title": "Vertically Expanding cards",
-        "img": "/images/css/vertical-expand-cards.webp",
-        "imgAlt": "/images/css/vertical-expand-cards.png",
-        "urlDemo": "https://codepen.io/cbolson/pen/KKGoZJb",
-        "urlGithub": "https://github.com/cbolson/sandbox-css/tree/main/cards-circles"
+        "urlGithub": "https://github.com/cbolson/projects/tree/master/cards-circles"
       }
     ]
+  },
+  {
+    "title": "Vertically expanding cards",
+    "img": "/images/css/vertical-expand-cards.webp",
+    "imgAlt": "/images/css/vertical-expand-cards.png",
+    "urlDemo": "https://codepen.io/cbolson/pen/KKGoZJb",
+    "urlGithub": "https://github.com/cbolson/sandbox-css/tree/main/cards-circles"
   }
 ]
