@@ -14,7 +14,7 @@
         "img": "./images/js/calendar.webp",
         "imgAlt": "./images/js/calendar.png",
         "urlDemo": "https://icodethis.com/submissions/13024",
-        "urlGithub": "https://icodethis.com/submissions/13024"
+        "urlGithub": "https://github.com/cbolson/icodethis-challenges/tree/main/date%20picker%202"
       },
       {
         "title": "Countdown",
@@ -96,6 +96,13 @@
         "imgAlt": "/images/css/vertical-expand-cards.png",
         "urlDemo": "https://codepen.io/cbolson/pen/KKGoZJb",
         "urlGithub": "https://github.com/cbolson/sandbox-css/tree/main/cards-circles"
+      },
+      {
+        "title": "Falling Cards",
+        "img": "/images/css/falling-cards.webp",
+        "imgAlt": "/images/css/falling-cards.png",
+        "urlDemo": "https://icodethis.com/code/412",
+        "urlGithub": "https://github.com/cbolson/sandbox-css/tree/main/fall-down-cards"
       }
     ]
   }
