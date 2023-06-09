@@ -6,6 +6,7 @@
 img {
   display: block;
 }
+
 :root {
   /* breakpoint properties */
   --main-w: 100%;
@@ -18,9 +19,10 @@ img {
   --card-rad: 20px;
 
   /* theme */
-  --body-bg: hsl(0, 0%, 20%);
+  --body-bg: rgb(1, 24, 47);
   --body-clr: #fff;
-  --header-bg: hsl(0, 0%, 30%);
+  --header-bg: hsl(76, 57%, 54%);
+  --header-clr: rgb(1, 24, 47);
   --h2-clr: hsl(76, 57%, 54%);
   --card-bg: hsl(0, 0%, 10%);
   --card-txt: #eee;
@@ -39,12 +41,12 @@ img {
     --body-clr: #000;
     --link: #111;
     --link-hover: #000;
-    --header-bg: #ccc;
+    --header-bg: hsl(76, 57%, 54%);
     --header-clr: #000;
     --card-bg: hsl(0, 0%, 84%);
     --card-bdr: hsl(0, 0%, 50%);
     --card-txt: hsl(0, 0%, 20%);
-    --h2-clr: #000;
+    --h2-clr: rgb(1, 24, 47);
     --img-shadow-hover: hsla(0, 0%, 0%, 0.3);
   }
 }
