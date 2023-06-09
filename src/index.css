@@ -216,5 +216,6 @@ h2 {
   }
   .note {
     margin-top: 1rem;
+    text-align: right;
   }
 }
