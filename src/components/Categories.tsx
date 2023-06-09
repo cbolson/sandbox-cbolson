@@ -15,6 +15,7 @@ function Categories() {
                 <Cards key={`card-${idp}`} {...props} />
               ))}
             </div>
+            {cat.note ? <div className="note">{cat.note}</div>: null }
           </section>
         ))}
     </>

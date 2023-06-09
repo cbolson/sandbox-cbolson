@@ -214,4 +214,7 @@ h2 {
   .card:hover {
     flex-basis: 600px;
   }
+  .note {
+    margin-top: 1rem;
+  }
 }
