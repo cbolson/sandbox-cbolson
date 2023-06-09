@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Categories from "./components/Categories";
+import Footer from "./components/Footer";
 
 function App() {
   //console.log(projects);
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Categories />
       </main>
+      <Footer />
     </>
   );
 }
