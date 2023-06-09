@@ -1,0 +1,17 @@
+
+      {
+         "title": "CSS & JavaScript Clock",
+         "img": "./images/js/clock.webp",
+        "imgAlt": "./images/js/clock.png",
+     "urlDemo": "http://sandbox.cbolson.com/projects/clock/",
+       "urlGithub": "https://github.com/cbolson/sandbox-JavaScript/tree/main/clock"
+      },
+
+      ,
+      {
+        "title": "Slideshow",
+        "img": "./images/js/slideshow.webp",
+        "imgAlt": "./images/js/slideshow.png",
+        "urlDemo": "http://sandbox.cbolson.com/projects/slideshow/",
+        "urlGithub": "https://github.com/cbolson/sandbox-JavaScript/tree/main/slideshow"
+      },

@@ -21,7 +21,7 @@ function Cards({ title, img, imgAlt, urlDemo, urlGithub }: Props) {
           Demo
         </a>
         <a href={urlGithub} className='btn' target='_blank'>
-          Github
+          Code
         </a>
       </div>
     </div>
