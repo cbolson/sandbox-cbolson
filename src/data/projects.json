@@ -83,6 +83,7 @@
 
   {
     "title": "CSS",
+    "note": "* the animations on this page are 100% CSS",
     "type": [
       {
         "title": "Circular navigation",
